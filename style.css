@@ -1,0 +1,624 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  color: white;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  padding-right: 0rem;
+}
+html {
+  scroll-behavior: smooth;
+}
+.logo {
+  /* width: 4.375rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 5.063rem;
+  border-radius: 50%;
+}
+.logo img:hover {
+  width: 5.063rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.nav-list {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 20px;
+}
+
+.nav-list li {
+  list-style: none;
+  /* padding: 1.25rem 3.75rem; */
+  /* margin: 20px; */
+  padding: 10px;
+  margin: 0px 15px;
+  /* border: 1px solid red; */
+}
+
+.nav-list li a {
+  text-decoration: none;
+  /* color: white; */
+  font-size: 1.3rem;
+}
+
+.rightnav {
+  width: 10%;
+  text-align: center;
+}
+.logout-btn {
+  height: 2rem;
+  width: 5rem;
+  color: white;
+  background-color: red;
+}
+
+.bg {
+  background: rgba(0, 0, 0, 0.7) url("101.jpg");
+
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.firstsection {
+  height: 100vh;
+}
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 50%;
+  margin: auto;
+  height: 80%;
+}
+.firsthalf {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.start-btn {
+  position: relative;
+  top: 1.25rem;
+}
+a {
+  text-decoration: none;
+}
+
+.secondhalf {
+  width: 30%;
+}
+.secondhalf img {
+  width: 70%;
+  border: 4px solid white;
+  border-radius: 100px;
+}
+
+.btn-sm {
+  position: relative;
+  right: 2.5rem;
+  height: 1.875rem;
+  width: 6.25rem;
+  color: black;
+  background-color: red;
+}
+.text-medium {
+  font-size: 3.125rem;
+}
+
+.text-big {
+  font-size: 4.688rem;
+}
+
+#textgrey {
+  color: gray;
+}
+
+.text-small {
+  font-size: 0.813rem;
+}
+.main-img {
+  width: 27.313rem;
+}
+.Get-startbtn {
+  color: black;
+  position: relative;
+  top: 1rem;
+  height: 2rem;
+  width: auto;
+  border: 3px solid gray;
+}
+
+.one {
+  color: rgb(90, 138, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.two {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.125rem;
+}
+
+.our-program {
+  position: relative;
+  top: 7.5rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.program-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+  align-items: center;
+  position: relative;
+  top: 18.75rem;
+  width: 100%;
+
+  padding-right: 3rem;
+}
+.read_btn {
+  background-color: red;
+  position: relative;
+  left: 6rem;
+  top: 3rem;
+  height: 2rem;
+  width: 8rem;
+}
+
+.flexmuscle {
+  height: 32.875rem;
+  width: 19.875rem;
+  background-color: black;
+}
+
+.cardioexercise {
+  height: 32.875rem;
+  width: 19.875rem;
+  background-color: black;
+}
+
+.basicyoga {
+  height: 32.875rem;
+  width: 19.875rem;
+  background-color: black;
+}
+
+.weightlifting {
+  height: 32.875rem;
+  width: 19.875rem;
+  background-color: black;
+}
+
+.first {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+  top: 4.375rem;
+  left: 2.5rem;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 2rem;
+}
+
+.h-same {
+  padding: 6.25rem 2.5rem 0rem 2.5rem;
+  font-size: 2rem;
+}
+
+.p-same {
+  color: gray;
+  padding: 2.5rem 4.375rem 0rem 3.125rem;
+  font-size: 1.25rem;
+}
+
+.choose {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 31.25rem;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7) url("101.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.ch-img {
+  border: 4px solid white;
+  border-radius: 6.25rem;
+  height: 18rem;
+  width: 18rem;
+  position: relative;
+  left: 3rem;
+}
+.diff {
+  padding-top: 1rem;
+}
+.best {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2.5rem;
+}
+
+.adds {
+  font-size: 2.7rem;
+}
+.adds-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.extra {
+  font-size: 1.125rem;
+}
+.pricing {
+  height: auto;
+  width: 100%;
+  padding-top: 31.25rem;
+}
+.space {
+  padding-bottom: 3.125rem;
+  padding-top: 5rem;
+}
+
+.package-all {
+  height: 43.75rem;
+  width: 21.875rem;
+  background-color: black;
+}
+
+.package {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+  align-items: center;
+  height: fit-content;
+}
+
+.package-logo {
+  position: relative;
+  top: 5.625rem;
+  left: 3.125rem;
+  height: 4.375rem;
+  width: 4.375rem;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 50%;
+}
+.gray {
+  color: gray;
+}
+#cross {
+  color: red;
+}
+.fa-indian-rupee-sign {
+  color: white;
+  font-size: 1.563rem;
+}
+.purchase {
+  position: relative;
+  top: 4.063rem;
+  font-size: 1.688rem;
+  padding-right: 0;
+}
+.money {
+  position: relative;
+  bottom: 2rem;
+  left: 0.625rem;
+}
+.tick {
+  position: relative;
+  left: 3.125rem;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 12.5rem;
+  justify-content: space-between;
+}
+.p-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8.75rem;
+}
+.pur-btn {
+  background-color: red;
+  height: 2.5rem;
+  width: 12.5rem;
+  color: black;
+}
+
+.main-img img {
+  position: relative;
+  bottom: 2rem;
+}
+
+.main-calculate {
+  background: rgba(0, 0, 0, 0.7) url("101.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 12.5rem;
+}
+
+.calc {
+  font-size: 4.375rem;
+}
+.your-bmi {
+  font-size: 4.375rem;
+}
+.calc-p {
+  font-size: 1.25rem;
+  position: relative;
+  left: 2.188rem;
+  top: 1.25rem;
+  margin: 33px 0px;
+}
+.bmi-h {
+  width: 30.25rem;
+  position: relative;
+  left: 2rem;
+}
+.main-calc {
+  width: 43.75rem;
+  height: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  position: relative;
+  left: 2rem;
+  gap: 1rem;
+  margin: 15px 0px;
+}
+
+.cal-btn {
+  height: 3.75rem;
+  width: 18.875rem;
+  position: relative;
+  left: 2.1rem;
+  font-size: 2rem;
+  color: black;
+  background-color: red;
+}
+#result {
+  color: red;
+  font-size: 1.25rem;
+  position: relative;
+  left: 1.563rem;
+  top: 1.5rem;
+}
+
+.hei-wei {
+  width: 18.75rem;
+  height: 3.75rem;
+  color: white;
+  border: 1px solid hsl(79, 67%, 52%);
+  background-color: transparent;
+}
+
+.contact {
+  background: rgba(0, 0, 0, 0.7) url("101.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 18.75rem;
+}
+.cont-h {
+  color: white;
+  background-color: black;
+  position: relative;
+  top: 15.675rem;
+  height: 1.875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 700px;
+  position: relative;
+  bottom: 3.75rem;
+
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.right-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.cont-p {
+  font-size: 1.25rem;
+  padding-top: 1.875rem;
+padding-right: 3rem;
+}
+.email {
+  position: relative;
+  top: 4rem;
+  width: 19.25rem;
+  height: 4.25rem;
+  color: black;
+  font-size: 1.438rem;
+  background-color: red;
+}
+.e-mail {
+  position: relative;
+  top: 2rem;
+}
+
+.e-logo {
+  margin: 0px 5px;
+  font-size: 1.5rem;
+  font-family: "Creepster", system-ui;
+}
+.service-li {
+  list-style: none;
+  color: gray;
+}
+.service {
+  font-size: 1.25rem;
+}
+#all {
+  color: white;
+}
+.deco-none {
+  text-decoration: none;
+  list-style: none;
+  color: gray;
+}
+.right-cont {
+  width: auto;
+  padding-right: 1rem;
+}
+.cont-one {
+  height: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right: 3.125rem;
+}
+.cont-two {
+  height: 9.375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 1.563rem;
+}
+.cont-three {
+  height: 12.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 3.125rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  overflow-x: hidden;
+}
+
+button:hover {
+  border: 3px solid hsl(79, 67%, 52%);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #000;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #f00;
+  border-radius: 50px;
+}
+img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  border: 4px solid hsl(79, 67%, 52%);
+}
+input:hover {
+  border: 0px solid transparent;
+}
+
+.package-all:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 4px solid hsl(79, 67%, 52%);
+}
+.flexmuscle:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 4px solid hsl(79, 67%, 52%);
+}
+
+.cardioexercise:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 4px solid hsl(79, 67%, 52%);
+}
+
+.basicyoga:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 4px solid hsl(79, 67%, 52%);
+}
+
+.weightlifting:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  border: 4px solid hsl(79, 67%, 52%);
+}
+a:hover {
+  color: rgb(32, 110, 173);
+  /* font-weight: 600; */
+  transition: all 0.2 ease-out;
+}
+
+.burger {
+  display: none;
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 0.938rem;
+}
+.line {
+  width: 2rem;
+  background-color: white;
+  height: 0.25rem;
+  margin: 0.313rem 0.188rem;
+}
+
+.logout {
+  display: none;
+}

@@ -1,0 +1,60 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  color: white;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.7) url("101.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  position: relative;
+  bottom: 5rem;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  padding: 2rem;
+  background: linear-gradient(90deg, red, blue, green);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+input {
+  height: 3rem;
+  width: 18rem;
+  border-radius: 3rem;
+  background-color: transparent;
+  border: 1px solid white;
+  margin: 1rem;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 2rem;
+}
+button {
+  height: 3rem;
+  width: 18rem;
+  background-color: red;
+  font-size: 1.5rem;
+  border-radius: 3rem;
+}
+button:hover {
+  background-color: transparent;
+}
+
+input:hover {
+  border: 1px solid gray;
+}

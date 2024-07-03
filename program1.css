@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7) url("101.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.video-container {
+  width: 20rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.summary {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+}
+
+p{
+  text-align: justify;
+}
+
+
+
+h1 {
+  color: white;
+}
+h4 {
+  font-size: 3rem;
+  background: linear-gradient(90deg, red, blue, green);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

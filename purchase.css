@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.7) url("101.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+main {
+  position: relative;
+  top: 8rem;
+}
+
+nav,
+main {
+  padding: 20px;
+  text-align: center;
+}
+h2 {
+  font-size: 3rem;
+  color: white;
+  background: linear-gradient(90deg, red, blue, green);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.payment-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid red;
+  border-radius: 4px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4rem;
+  background-color: transparent;
+  color: white;
+}
+label {
+  font-size: 2rem;
+  color: white;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: transparent;
+  font-size: 1rem;
+}
+input:hover {
+  border: 2px solid gray;
+}

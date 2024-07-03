@@ -1,0 +1,192 @@
+@media only screen and (max-width: 1310px) {
+  .nav-list {
+    flex-direction: column;
+  }
+  .navbar {
+    height: 28.125rem;
+    background-color: red;
+    flex-direction: column;
+    transition: all 1s ease-in-out;
+  }
+  .rightnav {
+    text-align: center;
+    position: relative;
+    left: 3.75rem;
+  }
+  .burger {
+    display: block;
+  }
+  .h-nav-resp {
+    height: 3.375rem;
+  }
+  .v-class-resp {
+    opacity: 0;
+  }
+  .logout {
+    text-align: center;
+    position: relative;
+    right: 3.75rem;
+  }
+  .id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #CalculateBMI {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  #home {
+    flex-direction: row-reverse;
+  }
+  #chooseus {
+    flex-direction: column;
+  }
+  #CalculateBMI {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .rightnav {
+    align-items: center;
+    position: relative;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .logo img {
+    width: 50px; /* Adjust as needed */
+  }
+
+  .box-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .firsthalf {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .secondhalf {
+    display: none;
+  }
+
+  .program-item {
+    flex-direction: column;
+  }
+
+  .package-all {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .package-logo {
+    width: 60px; /* Adjust as needed */
+    height: 60px; /* Adjust as needed */
+  }
+
+  .tick {
+    margin-top: 10px;
+    text-align: center;
+    left: 0rem;
+  }
+
+  .main-calc {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .calc-btn {
+    width: 100%;
+  }
+
+  .left-cont {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .right-cont {
+    flex-wrap: wrap;
+  }
+
+  .contact {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .e-mail {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 896px) {
+  .bmi-h {
+    width: auto;
+    position: relative;
+    left: 0rem;
+  }
+  .calc-p {
+    left: 0rem;
+    top: 0rem;
+  }
+  .bmi-h .calc {
+    font-size: 3.3rem;
+  }
+  .bmi-h .your-bmi {
+    font-size: 3.3rem;
+  }
+  .calc-image .ch-img {
+    left: 0rem;
+  }
+  .two {
+    font-size: 2.125rem;
+  }
+  .text-medium {
+    font-size: 2.12rem;
+  }
+  .text-big {
+    font-size: 2.688rem;
+  }
+  .ch-img {
+    left: 0rem;
+  }
+  .main-calculate {
+    height: 100vh;
+  }
+  .rightnav {
+    align-items: center;
+    position: relative;
+    padding-right: 3rem;
+    .id {
+      padding-left: 2.8rem;
+    }
+  }
+}
+@media only screen and (max-width: 1281px) {
+  .calc-image {
+    display: none;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .bmi-h {
+    position: relative;
+    left: 3rem;
+  }
+  .calc-p {
+    position: relative;
+    left: 1rem;
+    text-align: left;
+  }
+}

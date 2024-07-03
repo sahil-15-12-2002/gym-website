@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7) url("101.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+  background: linear-gradient(90deg, red, blue, green);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 4rem;
+}
+h3 {
+  color: white;
+  font-size: 3rem;
+  background: linear-gradient(90deg, YELLOW, red, blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

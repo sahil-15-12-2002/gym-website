@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GYM</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Creepster&family=Inika:wght@400;700&family=Irish+Grover&family=Kavoon&family=Poppins&family=Roboto&family=Sanchez:ital@0;1&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <nav class="navbar bg h-nav-resp">
+      <ul class="nav-list v-class-resp">
+        <div class="logo">
+          <img src="./Train Insane.png" alt="" />
+        </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#program">Program</a></li>
+        <li><a href="#chooseus">Choose Us</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#CalculateBMI">Calculate BMI</a></li>
+        <li><a href="./blog.html">Daily Blog</a></li>
+        <li><a href="#contactus">Contact Us</a></li>
+      </ul>
+      <div class="rightnav v-class-resp">
+        <button class="btn btn-sm register" onclick="login()">
+          <a href="./login.html">LOGIN</a>
+        </button>
+        <div class="logout">
+          <h2 class="id"><span id="user-username"></span>!</h2>
+          <button class="logout-btn" id="logout-btn">LOGOUT</button>
+        </div>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+
+    <section class="bg firstsection" id="home">
+      <div class="box-main">
+        <div class="firsthalf">
+          <p class="text-medium">MAKE YOUR</p>
+          <p class="text-big"><b>BODY SHAPE</b></p>
+          <p class="text-small" id="textgrey">
+            In here we will help you to shape and build your ideal body and live
+            your life to the fullest.
+          </p>
+          <a href="#pricing">
+            <div class="button">
+              <button class="pur-btn start-btn">
+                Get Started <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </a>
+        </div>
+
+        <div class="secondhalf main-img">
+          <img src="102.jpg" />
+        </div>
+      </div>
+    </section>
+    <div class="program-list" id="program">
+      <div class="our-program">
+        <p class="one">Our Program</p>
+        <p class="two">BUILD YOUR BEST BODY</p>
+      </div>
+      <div class="program-item">
+        <div class="flexmuscle">
+          <div class="first">
+            <i class="fa-solid fa-person-through-window"></i>
+          </div>
+          <p class="h-same">Flex Muscle</p>
+          <p class="p-same">
+            Creating tension that's temporarily making the muscle fibers smaller
+            or contracted.
+          </p>
+          <a href="program1.html">
+            <button class="read_btn">Read more</button>
+          </a>
+        </div>
+        <div class="cardioexercise">
+          <div class="first">
+            <i class="fa-solid fa-person-biking"></i>
+          </div>
+          <p class="h-same">Cardio Exercise</p>
+          <p class="p-same">
+            Exercise your heart rate up and keeps it up for a prolonged period
+            of time.
+          </p>
+          <a href="program2.html">
+            <button class="read_btn">Read more</button>
+          </a>
+        </div>
+        <div class="basicyoga">
+          <div class="first">
+            <i class="fa-solid fa-person-praying"></i>
+          </div>
+          <p class="h-same">Basic Yoga</p>
+          <p class="p-same">
+            Diaphragmatic this is the most common technique you'll find in yoga.
+          </p>
+          <a href="program3.html">
+            <button class="read_btn">Read more</button>
+          </a>
+        </div>
+        <div class="weightlifting">
+          <div class="first">
+            <i class="fa-solid fa-people-carry-box"></i>
+          </div>
+          <p class="h-same">Weight Lifting</p>
+          <p class="p-same">
+            Attempts a maximum weight single lift of a barbell loaded with
+            weight plates.
+          </p>
+          <a href="program4.html">
+            <button class="read_btn">Read more</button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="choose" id="chooseus">
+      <div class="choose-img">
+        <img class="ch-img" src="5.jpg" />
+      </div>
+      <div class="choose-main">
+        <p class="text-medium">Best Reason</p>
+        <p class="text-big diff"><b>WHY CHOOSE US ?</b></p>
+        <p class="text-small diff extra">
+          Choose your favourite clsss and start now. Remember the only bad
+          <br />
+          workout is the one you didn'do.
+        </p>
+        <div class="best diff">
+          <p class="text-medium">200+</p>
+          <br />
+          <p class="detail">Total Members</p>
+          <p class="text-medium">50+</p>
+          <br />
+          <p class="detail">Best Trainers</p>
+        </div>
+        <div class="best diff">
+          <p class="text-medium">25+</p>
+          <br />
+          <p class="detail">Programs</p>
+          <p class="text-medium">100+</p>
+          <br />
+          <p class="detail">Awards</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing">
+      <div class="price-heading">
+        <p class="one space" id="pricing">Pricing</p>
+        <p class="two">OUR SPECIAL PLAN</p>
+      </div>
+      <div class="package">
+        <div class="package-all">
+          <div class="package-logo">
+            <i class="fa-solid fa-parachute-box"></i>
+          </div>
+          <p class="p-same purchase">BASIC PACKAGE</p>
+          <p class="h-same money">
+            <i class="fa-solid fa-indian-rupee-sign"></i>1500
+          </p>
+          <div class="tick">
+            <p><i class="fa-solid fa-check"></i>5 Days In A Week</p>
+            <p><i class="fa-solid fa-check"></i>01 Sweatshirt</p>
+            <p class="gray">
+              <i class="fa-solid fa-xmark" id="cross"></i>01 Bottle Of Protein
+            </p>
+            <p class="gray">
+              <i class="fa-solid fa-xmark" id="cross"></i>Access To Videos
+            </p>
+            <p class="gray">
+              <i class="fa-solid fa-xmark" id="cross"></i>Muscles Stretching
+            </p>
+          </div>
+          <div class="p-btn">
+            <a href="purchase.html">
+              <button class="pur-btn">
+                Purchase Now <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div class="package-all">
+          <div class="package-logo">
+            <i class="fa-solid fa-crown"></i>
+          </div>
+          <p class="p-same purchase">PREMIUM PACKAGE</p>
+          <p class="h-same money">
+            <i class="fa-solid fa-indian-rupee-sign" id="rupees"></i>2000
+          </p>
+          <div class="tick">
+            <p><i class="fa-solid fa-check"></i>5 Days In A Week</p>
+            <p><i class="fa-solid fa-check"></i>01 Sweatshirt</p>
+            <p><i class="fa-solid fa-check"></i>01 Bottle Of Protein</p>
+            <p class="gray">
+              <i class="fa-solid fa-xmark" id="cross"></i>Access To Videos
+            </p>
+            <p class="gray">
+              <i class="fa-solid fa-xmark" id="cross"></i>Muscles Stretching
+            </p>
+          </div>
+          <div class="p-btn">
+            <a href="purchase.html">
+              <button class="pur-btn">
+                Purchase Now <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="package-all">
+          <div class="package-logo">
+            <i class="fa-solid fa-gem"></i>
+          </div>
+          <p class="p-same purchase">DIAMOND PACKAGE</p>
+          <p class="h-same money">
+            <i class="fa-solid fa-indian-rupee-sign" id="rupees"></i>2500
+          </p>
+          <div class="tick">
+            <p><i class="fa-solid fa-check"></i>5 Days In A Week</p>
+            <p><i class="fa-solid fa-check"></i>01 Sweatshirt</p>
+            <p><i class="fa-solid fa-check"></i>01 Bottle Of Protein</p>
+            <p><i class="fa-solid fa-check"></i>Access To Videos</p>
+            <p><i class="fa-solid fa-check"></i>Muscles Stretching</p>
+          </div>
+          <div class="p-btn">
+            <a href="purchase.html">
+              <button class="pur-btn">
+                Purchase Now <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-calculate" id="CalculateBMI">
+      <div class="calculate">
+        <div class="bmi-h">
+          <p class="calc">CALCULATE</p>
+          <p class="your-bmi">YOUR BMI</p>
+        </div>
+        <p class="calc-p">
+          The body mass index (BMI) calculator calculates <br />body mass index
+          from your weight and height.
+        </p>
+        <div class="main-calc">
+          <input
+            class="hei-wei"
+            id="height"
+            type="number"
+            placeholder="Height"
+          />
+          <p class="cm-kg">cm</p>
+          <input
+            class="hei-wei"
+            id="weight"
+            type="number"
+            placeholder="Weight"
+          />
+          <p class="cm-kg">kg</p>
+        </div>
+        <div class="calc-btn">
+          <button onclick="calculateBMI()" class="cal-btn">
+            Calculate Now <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <p id="result"></p>
+      </div>
+      <div class="calc-image">
+        <img class="ch-img m-img" src="7.jpg" alt="logo" />
+      </div>
+    </div>
+
+    <div class="contactus">
+      <p class="cont-h">CONTACT US</p>
+      <div class="contact" id="contactus">
+        <div class="left-cont">
+          <div class="logo e-logo">
+            <img src="./Train Insane.png" alt="logo" />Train Insane
+          </div>
+          <p class="cont-p">
+            Subscribe For Company <br />
+            Updates Below.
+          </p>
+          <form>
+            <input
+              class="hei-wei e-mail"
+              type="email"
+              placeholder="Your Email"
+              required
+            />
+            <button class="email" onclick="subscribe()">Subscribe</button>
+          </form>
+        </div>
+        <div class="right-cont">
+          <div class="cont-one">
+            <ul class="service">
+              <b><a class="deco-none" id="all" href="#program">SERVICE</a></b>
+            </ul>
+            <li class="service-li">
+              <a class="deco-none" href="#program">Flex Muscle</a>
+            </li>
+            <li class="service-li">
+              <a class="deco-none" href="#program">Cardio Exercise</a>
+            </li>
+            <li class="service-li">
+              <a class="deco-none" href="#program">Basic Yoga</a>
+            </li>
+            <li class="service-li">
+              <a class="deco-none" href="#program">Weight Lifting</a>
+            </li>
+          </div>
+          <div class="cont-two">
+            <ul class="service">
+              <b><a class="deco-none" id="all" href="#pricing">Pricing</a></b>
+            </ul>
+            <li class="service-li">
+              <a class="deco-none" href="#pricing">Basic</a>
+            </li>
+            <li class="service-li">
+              <a class="deco-none" href="#pricing">Premium</a>
+            </li>
+            <li class="service-li">
+              <a class="deco-none" href="#pricing">Diamond</a>
+            </li>
+          </div>
+          <div class="cont-three">
+            <ul class="service">
+              <b><a class="deco-none" id="all" href="#home">COMPANY</a></b>
+            </ul>
+            <li class="service-li">
+              <a class="deco-none" href="#home">About Us</a>
+            </li>
+            <li class="service-li">
+              <a class="deco-none" href="#program">Careers</a>
+            </li>
+            <li class="service-li">
+              <a class="deco-none" href="#chooseus">Customers</a>
+            </li>
+            <li class="service-li">
+              <a class="deco-none" href="#chooseus">Partners</a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+    <script src="dashboard.js"></script>
+  </body>
+</html>

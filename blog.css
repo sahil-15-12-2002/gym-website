@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/abstract-digital-grid-vector-black-background_53876-111550.jpg?w=996&t=st=1711096914~exp=1711097514~hmac=bcfff131914e7daeb187a3f78b9e08dfa8379d941b8b259c8e4a1382fdd8f62f);
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7) url("101.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+  /* background-size: contain; */
+  /* background-repeat: no-repeat;     */
+}
+/* Blog section started  */
+
+.line {
+  position: relative;
+  top: 0px;
+}
+
+.blogname {
+  text-align: center;
+  font-size: 2rem;
+  margin: 30px 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogname .line {
+  width: 100%;
+  height: 1px;
+  border: 2px solid rgb(128, 128, 128);
+}
+
+.blogname h2 {
+  /* display: inline-block; */
+  padding: 0px 18px;
+  color: white;
+  /* width: 50px; */
+}
+
+.blog {
+  /* background-color: #f00; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogImage {
+  width: 100%;
+  height: 50%;
+}
+.blogImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.aboutBlog {
+  padding: 10px;
+}
+
+.blogCard {
+  /* width: 25%; */
+  width: 25%;
+  display: flex;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 25px 25px;
+  /* gap: 25; */
+  flex-direction: column;
+  background-color: #000000c4;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+}
+
+.blogCard:hover {
+  box-shadow: 8px 10px 16px rgb(36, 63, 79);
+}
+
+.blogDate {
+  margin: 10px 0px;
+}
+
+.blogDate span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: red;
+}
+
+.aboutBlog h2 {
+  margin: 10px 0px;
+  width: 90%;
+  color: mintcream;
+}
+
+.aboutBlog p {
+  margin: 10px 0px;
+  width: 100%;
+  color: darkgrey;
+}
+
+button {
+  display: block;
+  color: black;
+  padding: 8px;
+  border-radius: 5px;
+}
+button a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+button:hover {
+  background-color: red;
+  color: white;
+}
